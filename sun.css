@@ -1,0 +1,57 @@
+
+body{
+margin: 0;
+direction: rtl;
+background-color: rgb(255, 255, 190);
+}
+
+#x1{
+    width: 100%;
+}
+main{
+width:100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+text-align: center;
+margin-top: 30px;
+}
+
+.mainImg{
+    width:20%;
+}
+
+.mainImg input {
+    margin-top: 10px;
+    border-radius: 20%;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+input:hover {
+background-color: burlywood;
+}
+.imag{
+    width: 186px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+}
+footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #6D8A9B;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.footDiv{
+    margin-left: 10px;
+    margin-right: 10px;
+}
